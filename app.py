@@ -1,6 +1,12 @@
 import streamlit as st
 
-st.set_page_config(page_title="نظام إدارة العمليات - حمودي", page_icon="⚡", layout="centered")
+st.set_page_config(
+    page_title="أمن للزيت - Oil Safe",
+    page_icon="logo.png",
+    layout="wide"
+)
+
+st.sidebar.image("logo.png", use_container_width=True)
 
 st.title("⚡ نظام إدارة العمليات والبرميتات")
 st.write("برنامج سريع ودقيق مطابق تماماً للقواعد المعتمدة للمحطات والآبار.")
